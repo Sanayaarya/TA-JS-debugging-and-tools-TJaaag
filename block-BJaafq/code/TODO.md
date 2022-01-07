@@ -10,6 +10,13 @@
 4. Make first test fail and see if you get the result of second test.
 5. If not fix it using the test framework (try...catch) we learned in the testing framework video.
 
+```js
+function add(numA, numB) {
+  return numA + numB;
+}
+
+```
+
 #### Multiply two numbers
 
 1. Write a function that takes two input `numA` and `numB` and returns the multiplication of both numbers.
@@ -17,3 +24,11 @@
 3. Throw an error when the arguments passed in not a number.
 4. Make first test fail and see if you get the result of second test.
 5. If not fix it using the test framework (try...catch) we learned in the testing framework video.
+
+
+```js
+function product(numA, numB) {
+  return numA * numB;
+}
+
+```
